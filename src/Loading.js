@@ -8,4 +8,8 @@ const Loading = props => {
     );
 };
 
+Loading.defaultProps = {
+    message: 'Loading ...'
+};
+
 export default Loading;
