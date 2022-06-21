@@ -1,0 +1,31 @@
+.season-display {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100%;
+}
+.season-display i {
+    font-size: 5em;
+    line-height: 1em;
+}
+.season-display i:first-of-type {
+    align-self: flex-start;
+}
+.season-display i:last-of-type {
+    align-self: flex-end;
+}
+
+.season-display.winter i {
+    color: rgba(53, 89, 171, 0.808)
+}
+.season-display.summer i {
+    color: rgba(192, 104, 27, 0.808)
+}
+
+.summer {
+    background-color: rgb(218, 188, 98);
+}
+.winter {
+    background-color: rgb(219, 237, 237);
+}
